@@ -11,7 +11,7 @@ var port = process.env.PORT || 3000;
 
 var app = module.exports = express.createServer();
 
-mongoose.connect('mongodb://localhost/todo_development')
+//mongoose.connect('mongodb://localhost/todo_development')
 
 function validatePresenceOf(value) {
   return value && value.length;
